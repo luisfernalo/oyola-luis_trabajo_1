@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('inicio');
+    return view('master');
 });
 Route::post('formulario', 'buscar@gestionMatriz');
 Route::post('formulario1', 'buscar@gestionMatriz');
